@@ -1,0 +1,160 @@
+body {
+    background-image: url("TilingBG.png");
+    background-size: 20%;
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+header {
+    width: 80%;
+    height: 80px;
+    background-color: #9D7FBA;
+    align-items: center;
+    margin: 0 auto;
+    top: 0;
+    padding-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size:300%;
+    margin: 0 auto;
+}
+
+.ImgHolder {
+    width: 80%;
+    background-color: #c6b9d3;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.ImgCaption {
+    color: aliceblue;
+    font-size: large;
+}
+
+.PromoImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.PageContent {
+    min-height: 100px;
+    width: 80%;
+    background-color: #9D7FBA;
+    margin: -20px auto 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.Spacer {
+    background-color: black;
+    margin: 0 auto;
+    margin-top: -10px;
+    height: 5px;
+    width: 85%;
+}
+
+.List {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: left;
+    display: block;
+    font-size: 150%;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.HaikuBlocks{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.Haiku {
+    font-style: italic;
+    font-size: 125%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 2px;
+    border-style: double;
+}
+
+.HL1 {
+    margin-left:0px;
+    
+}
+
+.HL2 {
+    margin-left:40px;
+}
+
+.HL3 {
+    margin-left:80px;
+}
+
+.Memorial {
+    font-size: 200%;
+    margin-bottom: 40px;
+}
+
+.TopText {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.BottomText {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.ImgContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+figcaption {
+    margin-bottom: 20px;
+}
+
+.Footer {
+    height: 40px;
+}
+
+#tribute-link {
+    color: white;
+}
+
+#image {
+    height: auto;
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
