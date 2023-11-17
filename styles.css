@@ -11,7 +11,7 @@ body {
 
 header {
     width: 80%;
-    height: 80px;
+    height: 8vw;
     background-color: #9D7FBA;
     align-items: center;
     margin: 0 auto;
@@ -122,6 +122,7 @@ li {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
+    font-size: 3vw;
 }
 
 .BottomText {
@@ -130,6 +131,7 @@ li {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
+    font-size: 3vw;
 }
 
 .ImgContainer {
@@ -157,4 +159,8 @@ figcaption {
 
 img {
     height: auto;
+}
+
+#title {
+    font-size: 4vw;
 }
